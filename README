@@ -1,0 +1,14 @@
+Homework:
+    
+    Firstly I inserted players in Skiplist having IDs from 1 to number of players
+and setting their points to 0. I read out of input file and checked if the line
+was "print" or a sequence of numbers representing players' time until i get to the end of input file. Then i checked
+how many players have their time different of 0, meaning they took part in the
+race.
+    Then I sorted players by their time and immediately after by their last
+rankings so if 2 or more players had the same time, I can still add points the
+right way. I added points by the rule specified in the homework details.
+    Finally, each player's points became equal to how many they got in that race
+added to his last number of points. Search function finds me points of a specified
+player. Then I deleted the player from the list and updated it by adding the same
+player having the new points number. In the end i called "getLast" function to update and to keep tracking of their rankings. 
