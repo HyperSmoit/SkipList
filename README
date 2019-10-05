@@ -1,6 +1,4 @@
-Homework:
-    
-    Firstly I inserted players in Skiplist having IDs from 1 to number of players
+        Firstly I inserted players in Skiplist having IDs from 1 to number of players
 and setting their points to 0. I read out of input file and checked if the line
 was "print" or a sequence of numbers representing players' time until i get to the end of input file. Then i checked
 how many players have their time different of 0, meaning they took part in the
